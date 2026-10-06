@@ -88,3 +88,11 @@ def prime(num):
                         return("This is a prime number")
 
 print(prime(439847))
+readings = [15, 14, 17, 20, 23, 28, 20]
+min = 100
+max = 0
+def readings ():
+    for i in readings:
+        if i < min:
+            min = i
+        else
